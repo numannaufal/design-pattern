@@ -1,0 +1,17 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "design pattern typescript implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --progress --colors --watch"
+  },
+  "author": "numan",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.0"
+  }
+}
