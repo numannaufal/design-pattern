@@ -1,3 +1,12 @@
+/**
+ * The idea is put all singletion to a registry
+ * to?
+ * just check all singleton in app
+ * central portal to get singleton instance
+ * 
+ */
+
+
 import {Singleton} from "./Singleton";
 import {SingletonMap} from "./SingletonMap";
 
