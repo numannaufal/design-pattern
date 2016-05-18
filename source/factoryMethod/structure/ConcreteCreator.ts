@@ -6,7 +6,12 @@ export class ConcreteCreator extends AbstractCreator {
     constructor() {
         super();
     }
-    public factoryMethod(): AbstractProduct {
-        return;
+    public factoryMethod(objectName: string): AbstractProduct {
+        switch(objectName) {
+            case "concreteProduct":
+                return new ConcreteProduct();
+            default:
+                return null;
+        }
     }
 }

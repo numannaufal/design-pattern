@@ -5,7 +5,8 @@ module.exports = {
         abstractFactory_structures:'./source/abstractFactory/structure/Client.ts',
         abstractFactory_eg_pizza:'./source/abstractFactory/examples/pizza/PizzaClient.ts',
         singleton_structure: './source/singleton/structure/Singleton.ts',
-        builder_structure: './source/builder/structure/Client.ts'
+        builder_structure: './source/builder/structure/Client.ts',
+        factoryMethod_structure: './source/factoryMethod/structure/Client.ts'
     },
     output: {
         path: './target',
