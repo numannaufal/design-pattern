@@ -7,7 +7,9 @@ module.exports = {
         singleton_structure: './source/creational/singleton/structure/Singleton.ts',
         builder_structure: './source/creational/builder/structure/Client.ts',
         factoryMethod_structure: './source/creational/factoryMethod/structure/Client.ts',
-        prototype_structure: './source/creational/prototype/structure/Client.ts'
+        prototype_structure: './source/creational/prototype/structure/Client.ts',
+        adapter_structure: './source/structural/adapter/structure/Client.ts',
+        bridge_structure: './source/structural/bridge/structure/Client.ts'
     },
     output: {
         path: './target',
